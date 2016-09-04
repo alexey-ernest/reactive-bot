@@ -1,0 +1,49 @@
+{
+  "name": "reactive-bot",
+  "version": "0.0.1",
+  "description": "Avia fares bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "jest",
+    "lint": "eslint ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexey-ernest/reactive-bot.git"
+  },
+  "keywords": [
+    "avia",
+    "fares",
+    "bot",
+    "ai",
+    "scanner",
+    "statistics"
+  ],
+  "author": "Alexey Melnikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alexey-ernest/reactive-bot/issues"
+  },
+  "homepage": "https://github.com/alexey-ernest/reactive-bot#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.0",
+    "debug": "^2.2.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.5.10",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^6.1.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "eslint": "^3.3.1",
+    "eslint-plugin-react": "^6.1.2",
+    "jest": "^15.1.1"
+  }
+}
