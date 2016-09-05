@@ -1,0 +1,1733 @@
+{
+  "Flights": {
+    "SessionKey": "c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691",
+    "Query": {
+      "Country": "RU",
+      "Currency": "RUB",
+      "Locale": "ru-ru",
+      "Adults": 2,
+      "Children": 1,
+      "Infants": 1,
+      "OriginPlace": "5227",
+      "DestinationPlace": "12130",
+      "OutboundDate": "2016-10-01",
+      "InboundDate": "2016-10-09",
+      "LocationSchema": "Default",
+      "CabinClass": "Economy",
+      "GroupPricing": true
+    },
+    "Status": "UpdatesComplete",
+    "Itineraries": [
+      {
+        "OutboundLegId": {
+          "Id": "11051-1610011140-A3-0-12130-1610011525",
+          "SegmentIds": [
+            1
+          ],
+          "OriginStation": {
+            "Id": 11051,
+            "ParentId": 5227,
+            "Code": "DME",
+            "Type": "Airport",
+            "Name": "Москва Домодедово"
+          },
+          "DestinationStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "Departure": "2016-10-01T11:40:00",
+          "Arrival": "2016-10-01T15:25:00",
+          "Duration": 225,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "987",
+              "CarrierId": 819,
+              "Carrier": {
+                "Id": 819,
+                "Code": "A3",
+                "Name": "Aegean Airlines",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+                "DisplayCode": "A3"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "12130-1610090700-A3-0-11051-1610091055",
+          "SegmentIds": [
+            150
+          ],
+          "OriginStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "DestinationStation": {
+            "Id": 11051,
+            "ParentId": 5227,
+            "Code": "DME",
+            "Type": "Airport",
+            "Name": "Москва Домодедово"
+          },
+          "Departure": "2016-10-09T07:00:00",
+          "Arrival": "2016-10-09T10:55:00",
+          "Duration": 235,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "986",
+              "CarrierId": 819,
+              "Carrier": {
+                "Id": 819,
+                "Code": "A3",
+                "Name": "Aegean Airlines",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+                "DisplayCode": "A3"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2167073,
+                "Name": "ClickAvia",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/clka.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "BookingNumber": "+7 (495) 646-22-66",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 70027,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fclka%2f2%2f11051.12130.2016-10-01%2c12130.11051.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32756%7c987%7c11051%7c2016-10-01T11%3a40%7c12130%7c2016-10-01T15%3a25%2cflight%7c-32756%7c986%7c12130%7c2016-10-09T07%3a00%7c11051%7c2016-10-09T10%3a55%26carriers%3d-32756%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d70027.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_8c5a8d7bfa906c4d160539b36529d1e5%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a36"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2074840,
+                "Name": "Biletix.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/btix.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "0074956268890",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 70200,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fbtix%2f2%2f11051.12130.2016-10-01%2c12130.11051.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32756%7c987%7c11051%7c2016-10-01T11%3a40%7c12130%7c2016-10-01T15%3a25%2cflight%7c-32756%7c986%7c12130%7c2016-10-09T07%3a00%7c11051%7c2016-10-09T10%3a55%26carriers%3d-32756%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d70200.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_48939270457ab49bff68b700ab3575d6%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a47"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691/booking",
+          "Body": "OutboundLegId=11051-1610011140-A3-0-12130-1610011525&InboundLegId=12130-1610090700-A3-0-11051-1610091055",
+          "Method": "PUT"
+        },
+        "FormattedData": "ClickAvia: 70027 RUB
+Biletix.ru: 70200 RUB
+"
+      },
+      {
+        "OutboundLegId": {
+          "Id": "17538-1610010425-EL-0-12130-1610010825",
+          "SegmentIds": [
+            2
+          ],
+          "OriginStation": {
+            "Id": 17538,
+            "ParentId": 5227,
+            "Code": "VKO",
+            "Type": "Airport",
+            "Name": "Москва Внуково"
+          },
+          "DestinationStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "Departure": "2016-10-01T04:25:00",
+          "Arrival": "2016-10-01T08:25:00",
+          "Duration": 240,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "703",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "12130-1610091955-EL-1-16626-1610101210",
+          "SegmentIds": [
+            151,
+            152
+          ],
+          "OriginStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "DestinationStation": {
+            "Id": 16626,
+            "ParentId": 5227,
+            "Code": "SVO",
+            "Type": "Airport",
+            "Name": "Москва Шереметьево"
+          },
+          "Departure": "2016-10-09T19:55:00",
+          "Arrival": "2016-10-10T12:10:00",
+          "Duration": 975,
+          "JourneyMode": "Flight",
+          "Stops": [
+            {
+              "Id": 16337,
+              "ParentId": 7661,
+              "Code": "SKG",
+              "Type": "Airport",
+              "Name": "Салоники"
+            }
+          ],
+          "Carriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "51",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            },
+            {
+              "FlightNumber": "908",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2160610,
+                "Name": "City.Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/citr.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 77306,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fcitr%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d77306.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_5a13f31e0419b1f0b53c140a14ea7f34%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a17%3a07"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4061317,
+                "Name": "Trip.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/trru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 80494.21,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2ftrru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d80494.21%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_8c39e682158839d5b7ba560b3b1cbbc2%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a49"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3957531,
+                "Name": "SuperKassa",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/supk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 81669,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsupk%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d81669.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_be63c47379d63312430b7fde88770580%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a46"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4045189,
+                "Name": "Tickets.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tkru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83237,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2ftkru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83237.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_5f88dd9058e26fec2a101f333863b63e%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a56"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3960257,
+                "Name": "Svyaznoy Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/svya.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83296,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsvya%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83296.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_dcec2ad590f1525ddcd39e3e62d22afc%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a42"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2615155,
+                "Name": "Go2See",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/go2c.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83297.92,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fgo2c%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83297.92%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_1406b8d2fc82d94574d21b0b111a3fcd%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a45"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3072121,
+                "Name": "Kupibilet",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/kubi.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 84465,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fkubi%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d84465.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_05bae22cabd77d192212fcc6a6b59bc7%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a50"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3957637,
+                "Name": "Supersaver.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/suru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 84656,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsuru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d84656.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_2d317a07446cf82475d1c475563ef009%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a45"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 1943123,
+                "Name": "Aviakassa",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/akas.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+74959701717",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 103867,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fakas%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d103867.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_2f8d0d95a823f191313a005cf792f08e%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a47"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691/booking",
+          "Body": "OutboundLegId=17538-1610010425-EL-0-12130-1610010825&InboundLegId=12130-1610091955-EL-1-16626-1610101210",
+          "Method": "PUT"
+        },
+        "FormattedData": "City.Travel: 77306 RUB
+Trip.ru: 80494.21 RUB
+SuperKassa: 81669 RUB
+Tickets.ru: 83237 RUB
+Svyaznoy Travel: 83296 RUB
+Go2See: 83297.92 RUB
+Kupibilet: 84465 RUB
+Supersaver.ru: 84656 RUB
+Aviakassa: 103867 RUB
+"
+      },
+      {
+        "OutboundLegId": {
+          "Id": "17538-1610010425-EL-0-12130-1610010825",
+          "SegmentIds": [
+            2
+          ],
+          "OriginStation": {
+            "Id": 17538,
+            "ParentId": 5227,
+            "Code": "VKO",
+            "Type": "Airport",
+            "Name": "Москва Внуково"
+          },
+          "DestinationStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "Departure": "2016-10-01T04:25:00",
+          "Arrival": "2016-10-01T08:25:00",
+          "Duration": 240,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "703",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "12130-1610091800-EL-2-16626-1610101210",
+          "SegmentIds": [
+            153,
+            154,
+            152
+          ],
+          "OriginStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "DestinationStation": {
+            "Id": 16626,
+            "ParentId": 5227,
+            "Code": "SVO",
+            "Type": "Airport",
+            "Name": "Москва Шереметьево"
+          },
+          "Departure": "2016-10-09T18:00:00",
+          "Arrival": "2016-10-10T12:10:00",
+          "Duration": 1090,
+          "JourneyMode": "Flight",
+          "Stops": [
+            {
+              "Id": 9592,
+              "ParentId": 650,
+              "Code": "ATH",
+              "Type": "Airport",
+              "Name": "Афины Интернешнл"
+            },
+            {
+              "Id": 16337,
+              "ParentId": 7661,
+              "Code": "SKG",
+              "Type": "Airport",
+              "Name": "Салоники"
+            }
+          ],
+          "Carriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "908",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            },
+            {
+              "FlightNumber": "30",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            },
+            {
+              "FlightNumber": "101",
+              "CarrierId": 1036,
+              "Carrier": {
+                "Id": 1036,
+                "Code": "EL",
+                "Name": "Ellinair",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+                "DisplayCode": "EL"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2160610,
+                "Name": "City.Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/citr.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 77433,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fcitr%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d77433.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_160e06cfc08d0dd23eb28289970c6659%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a17%3a07"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4061317,
+                "Name": "Trip.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/trru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 81680.19,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2ftrru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d81680.19%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_a1a97a72ed75c5516a07f5ca20c8d413%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a49"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3957531,
+                "Name": "SuperKassa",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/supk.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 82877,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsupk%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d82877.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_745b9d5e6c7f77c8d97f0dcaeab20326%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a46"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2615155,
+                "Name": "Go2See",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/go2c.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83589.49,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fgo2c%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83589.49%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_155debc362df83c90d3dc1244735aece%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a45"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 4045189,
+                "Name": "Tickets.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/tkru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83794,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2ftkru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83794.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_eb0f54154c775a047223192500a06ac7%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a56"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3960257,
+                "Name": "Svyaznoy Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/svya.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 83797,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsvya%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d83797.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_ea5914c19ecc576792148b495a27ec12%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a42"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3072121,
+                "Name": "Kupibilet",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/kubi.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 85671,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fkubi%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d85671.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_1860dcc4062681e8a05a4412690267a9%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a50"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 3957637,
+                "Name": "Supersaver.ru",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/suru.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 87570,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fsuru%2f2%2f5227.12130.2016-10-01%2c12130.5227.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-31489%7c703%7c17538%7c2016-10-01T04%3a25%7c12130%7c2016-10-01T08%3a25%2cflight%7c-31489%7c30%7c12130%7c2016-10-09T18%3a00%7c9592%7c2016-10-09T18%3a50%3bflight%7c-31489%7c101%7c9592%7c2016-10-09T20%3a35%7c16337%7c2016-10-09T21%3a30%3bflight%7c-31489%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-31489%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d87570.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_2b031436ba2eaf1be5bad9ec227dcab1%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a45"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691/booking",
+          "Body": "OutboundLegId=17538-1610010425-EL-0-12130-1610010825&InboundLegId=12130-1610091800-EL-2-16626-1610101210",
+          "Method": "PUT"
+        },
+        "FormattedData": "City.Travel: 77433 RUB
+Trip.ru: 81680.19 RUB
+SuperKassa: 82877 RUB
+Go2See: 83589.49 RUB
+Tickets.ru: 83794 RUB
+Svyaznoy Travel: 83797 RUB
+Kupibilet: 85671 RUB
+Supersaver.ru: 87570 RUB
+"
+      },
+      {
+        "OutboundLegId": {
+          "Id": "11051-1610011140-A3-0-12130-1610011535",
+          "SegmentIds": [
+            3
+          ],
+          "OriginStation": {
+            "Id": 11051,
+            "ParentId": 5227,
+            "Code": "DME",
+            "Type": "Airport",
+            "Name": "Москва Домодедово"
+          },
+          "DestinationStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "Departure": "2016-10-01T11:40:00",
+          "Arrival": "2016-10-01T15:35:00",
+          "Duration": 235,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "987",
+              "CarrierId": 819,
+              "Carrier": {
+                "Id": 819,
+                "Code": "A3",
+                "Name": "Aegean Airlines",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+                "DisplayCode": "A3"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "12130-1610090710-A3-0-11051-1610091055",
+          "SegmentIds": [
+            155
+          ],
+          "OriginStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "DestinationStation": {
+            "Id": 11051,
+            "ParentId": 5227,
+            "Code": "DME",
+            "Type": "Airport",
+            "Name": "Москва Домодедово"
+          },
+          "Departure": "2016-10-09T07:10:00",
+          "Arrival": "2016-10-09T10:55:00",
+          "Duration": 225,
+          "JourneyMode": "Flight",
+          "Stops": [],
+          "Carriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "986",
+              "CarrierId": 819,
+              "Carrier": {
+                "Id": 819,
+                "Code": "A3",
+                "Name": "Aegean Airlines",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+                "DisplayCode": "A3"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2160610,
+                "Name": "City.Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/citr.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 78042,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fcitr%2f2%2f11051.12130.2016-10-01%2c12130.11051.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32756%7c987%7c11051%7c2016-10-01T11%3a40%7c12130%7c2016-10-01T15%3a35%2cflight%7c-32756%7c986%7c12130%7c2016-10-09T07%3a10%7c11051%7c2016-10-09T10%3a55%26carriers%3d-32756%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d78042.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_43f01fdb749bc050f069acbadb8174a9%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a17%3a07"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 2615155,
+                "Name": "Go2See",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/go2c.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 79273.1,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fgo2c%2f2%2f11051.12130.2016-10-01%2c12130.11051.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32756%7c987%7c11051%7c2016-10-01T11%3a40%7c12130%7c2016-10-01T15%3a35%2cflight%7c-32756%7c986%7c12130%7c2016-10-09T07%3a10%7c11051%7c2016-10-09T10%3a55%26carriers%3d-32756%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d79273.10%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_dcb0448fe52bcc83576273eef5b2ee0f%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a45"
+          },
+          {
+            "Agents": [
+              {
+                "Id": 1943123,
+                "Name": "Aviakassa",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/akas.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": true,
+                "BookingNumber": "+74959701717",
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 80447,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fakas%2f2%2f11051.12130.2016-10-01%2c12130.11051.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32756%7c987%7c11051%7c2016-10-01T11%3a40%7c12130%7c2016-10-01T15%3a35%2cflight%7c-32756%7c986%7c12130%7c2016-10-09T07%3a10%7c11051%7c2016-10-09T10%3a55%26carriers%3d-32756%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d80447.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-west-1.prod_039818512e30d87f553ae77f0a25edef%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a16%3a47"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691/booking",
+          "Body": "OutboundLegId=11051-1610011140-A3-0-12130-1610011535&InboundLegId=12130-1610090710-A3-0-11051-1610091055",
+          "Method": "PUT"
+        },
+        "FormattedData": "City.Travel: 78042 RUB
+Go2See: 79273.1 RUB
+Aviakassa: 80447 RUB
+"
+      },
+      {
+        "OutboundLegId": {
+          "Id": "16626-1610011835-SU-1-12130-1610020740",
+          "SegmentIds": [
+            4,
+            5
+          ],
+          "OriginStation": {
+            "Id": 16626,
+            "ParentId": 5227,
+            "Code": "SVO",
+            "Type": "Airport",
+            "Name": "Москва Шереметьево"
+          },
+          "DestinationStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "Departure": "2016-10-01T18:35:00",
+          "Arrival": "2016-10-02T07:40:00",
+          "Duration": 785,
+          "JourneyMode": "Flight",
+          "Stops": [
+            {
+              "Id": 9592,
+              "ParentId": 650,
+              "Code": "ATH",
+              "Type": "Airport",
+              "Name": "Афины Интернешнл"
+            }
+          ],
+          "Carriers": [
+            {
+              "Id": 1717,
+              "Code": "SU",
+              "Name": "Aeroflot",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+              "DisplayCode": "SU"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1717,
+              "Code": "SU",
+              "Name": "Aeroflot",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+              "DisplayCode": "SU"
+            },
+            {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          ],
+          "Directionality": "Outbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "2112",
+              "CarrierId": 1717,
+              "Carrier": {
+                "Id": 1717,
+                "Code": "SU",
+                "Name": "Aeroflot",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+                "DisplayCode": "SU"
+              }
+            },
+            {
+              "FlightNumber": "300",
+              "CarrierId": 1717,
+              "Carrier": {
+                "Id": 1717,
+                "Code": "SU",
+                "Name": "Aeroflot",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+                "DisplayCode": "SU"
+              }
+            }
+          ]
+        },
+        "InboundLegId": {
+          "Id": "12130-1610091955-SU-1-16626-1610101210",
+          "SegmentIds": [
+            156,
+            157
+          ],
+          "OriginStation": {
+            "Id": 12130,
+            "ParentId": 1836,
+            "Code": "HER",
+            "Type": "Airport",
+            "Name": "Крит Ираклион"
+          },
+          "DestinationStation": {
+            "Id": 16626,
+            "ParentId": 5227,
+            "Code": "SVO",
+            "Type": "Airport",
+            "Name": "Москва Шереметьево"
+          },
+          "Departure": "2016-10-09T19:55:00",
+          "Arrival": "2016-10-10T12:10:00",
+          "Duration": 975,
+          "JourneyMode": "Flight",
+          "Stops": [
+            {
+              "Id": 16337,
+              "ParentId": 7661,
+              "Code": "SKG",
+              "Type": "Airport",
+              "Name": "Салоники"
+            }
+          ],
+          "Carriers": [
+            {
+              "Id": 1717,
+              "Code": "SU",
+              "Name": "Aeroflot",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+              "DisplayCode": "SU"
+            }
+          ],
+          "OperatingCarriers": [
+            {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          ],
+          "Directionality": "Inbound",
+          "FlightNumbers": [
+            {
+              "FlightNumber": "51",
+              "CarrierId": 1717,
+              "Carrier": {
+                "Id": 1717,
+                "Code": "SU",
+                "Name": "Aeroflot",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+                "DisplayCode": "SU"
+              }
+            },
+            {
+              "FlightNumber": "908",
+              "CarrierId": 1717,
+              "Carrier": {
+                "Id": 1717,
+                "Code": "SU",
+                "Name": "Aeroflot",
+                "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+                "DisplayCode": "SU"
+              }
+            }
+          ]
+        },
+        "PricingOptions": [
+          {
+            "Agents": [
+              {
+                "Id": 2160610,
+                "Name": "City.Travel",
+                "ImageUrl": "http://s1.apideeplink.com/images/websites/citr.png",
+                "Status": "UpdatesComplete",
+                "OptimisedForMobile": false,
+                "Type": "TravelAgent"
+              }
+            ],
+            "QuoteAgeInMinutes": 1,
+            "Price": 84440,
+            "DeeplinkUrl": "http://partners.api.skyscanner.net/apiservices/deeplink/v2?_cje=hM2Ocr9FhECOifozR2orNl%2f4%2b8ET7mt1Ofm5D9kg7ek0UGKtOlP1IsUnPHx3uW7A&url=http%3a%2f%2fwww.apideeplink.com%2ftransport_deeplink%2f4.0%2fRU%2fru-ru%2fRUB%2fcitr%2f2%2f16626.12130.2016-10-01%2c12130.16626.2016-10-09%2fair%2ftrava%2fflights%3fitinerary%3dflight%7c-32741%7c2112%7c16626%7c2016-10-01T18%3a35%7c9592%7c2016-10-01T22%3a35%3bflight%7c-32741%7c300%7c9592%7c2016-10-02T06%3a50%7c12130%7c2016-10-02T07%3a40%2cflight%7c-32741%7c51%7c12130%7c2016-10-09T19%3a55%7c16337%7c2016-10-09T21%3a10%3bflight%7c-32741%7c908%7c16337%7c2016-10-10T08%3a55%7c16626%7c2016-10-10T12%3a10%26carriers%3d-32741%26passengers%3d2%2c1%2c1%26channel%3ddataapi%26cabin_class%3deconomy%26facilitated%3dfalse%26ticket_price%3d84440.00%26is_npt%3dfalse%26is_multipart%3dfalse%26client_id%3dskyscanner_b2b%26request_id%3dc37a2f58-8bfe-489f-85c1-8c15e9cae64e%26deeplink_ids%3deu-central-1.prod_f50a28adf4f17a1acfc2153ec00addcb%26commercial_filters%3dfalse%26q_datetime_utc%3d2016-09-04T21%3a17%3a07"
+          }
+        ],
+        "BookingDetailsLink": {
+          "Uri": "/apiservices/pricing/v1.0/c34a3254c79148baa476da1e9b97efb5_ecilpojl_FFE21B4110E89CF6494A9FA8E5C01691/booking",
+          "Body": "OutboundLegId=16626-1610011835-SU-1-12130-1610020740&InboundLegId=12130-1610091955-SU-1-16626-1610101210",
+          "Method": "PUT"
+        },
+        "FormattedData": "City.Travel: 84440 RUB
+"
+      }
+    ],
+    "Legs": [
+      {
+        "Id": "11051-1610011140-A3-0-12130-1610011525",
+        "SegmentIds": [
+          1
+        ],
+        "OriginStation": {
+          "Id": 11051,
+          "ParentId": 5227,
+          "Code": "DME",
+          "Type": "Airport",
+          "Name": "Москва Домодедово"
+        },
+        "DestinationStation": {
+          "Id": 12130,
+          "ParentId": 1836,
+          "Code": "HER",
+          "Type": "Airport",
+          "Name": "Крит Ираклион"
+        },
+        "Departure": "2016-10-01T11:40:00",
+        "Arrival": "2016-10-01T15:25:00",
+        "Duration": 225,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "987",
+            "CarrierId": 819,
+            "Carrier": {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "17538-1610010425-EL-0-12130-1610010825",
+        "SegmentIds": [
+          2
+        ],
+        "OriginStation": {
+          "Id": 17538,
+          "ParentId": 5227,
+          "Code": "VKO",
+          "Type": "Airport",
+          "Name": "Москва Внуково"
+        },
+        "DestinationStation": {
+          "Id": 12130,
+          "ParentId": 1836,
+          "Code": "HER",
+          "Type": "Airport",
+          "Name": "Крит Ираклион"
+        },
+        "Departure": "2016-10-01T04:25:00",
+        "Arrival": "2016-10-01T08:25:00",
+        "Duration": 240,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 1036,
+            "Code": "EL",
+            "Name": "Ellinair",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+            "DisplayCode": "EL"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 1036,
+            "Code": "EL",
+            "Name": "Ellinair",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+            "DisplayCode": "EL"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "703",
+            "CarrierId": 1036,
+            "Carrier": {
+              "Id": 1036,
+              "Code": "EL",
+              "Name": "Ellinair",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+              "DisplayCode": "EL"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "11051-1610011140-A3-0-12130-1610011535",
+        "SegmentIds": [
+          3
+        ],
+        "OriginStation": {
+          "Id": 11051,
+          "ParentId": 5227,
+          "Code": "DME",
+          "Type": "Airport",
+          "Name": "Москва Домодедово"
+        },
+        "DestinationStation": {
+          "Id": 12130,
+          "ParentId": 1836,
+          "Code": "HER",
+          "Type": "Airport",
+          "Name": "Крит Ираклион"
+        },
+        "Departure": "2016-10-01T11:40:00",
+        "Arrival": "2016-10-01T15:35:00",
+        "Duration": 235,
+        "JourneyMode": "Flight",
+        "Stops": [],
+        "Carriers": [
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "987",
+            "CarrierId": 819,
+            "Carrier": {
+              "Id": 819,
+              "Code": "A3",
+              "Name": "Aegean Airlines",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+              "DisplayCode": "A3"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "16626-1610011835-SU-1-12130-1610020740",
+        "SegmentIds": [
+          4,
+          5
+        ],
+        "OriginStation": {
+          "Id": 16626,
+          "ParentId": 5227,
+          "Code": "SVO",
+          "Type": "Airport",
+          "Name": "Москва Шереметьево"
+        },
+        "DestinationStation": {
+          "Id": 12130,
+          "ParentId": 1836,
+          "Code": "HER",
+          "Type": "Airport",
+          "Name": "Крит Ираклион"
+        },
+        "Departure": "2016-10-01T18:35:00",
+        "Arrival": "2016-10-02T07:40:00",
+        "Duration": 785,
+        "JourneyMode": "Flight",
+        "Stops": [
+          {
+            "Id": 9592,
+            "ParentId": 650,
+            "Code": "ATH",
+            "Type": "Airport",
+            "Name": "Афины Интернешнл"
+          }
+        ],
+        "Carriers": [
+          {
+            "Id": 1717,
+            "Code": "SU",
+            "Name": "Aeroflot",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+            "DisplayCode": "SU"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 1717,
+            "Code": "SU",
+            "Name": "Aeroflot",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+            "DisplayCode": "SU"
+          },
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "2112",
+            "CarrierId": 1717,
+            "Carrier": {
+              "Id": 1717,
+              "Code": "SU",
+              "Name": "Aeroflot",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+              "DisplayCode": "SU"
+            }
+          },
+          {
+            "FlightNumber": "300",
+            "CarrierId": 1717,
+            "Carrier": {
+              "Id": 1717,
+              "Code": "SU",
+              "Name": "Aeroflot",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+              "DisplayCode": "SU"
+            }
+          }
+        ]
+      },
+      {
+        "Id": "16626-1610010410-JU-2-12130-1610011950",
+        "SegmentIds": [
+          6,
+          7,
+          8
+        ],
+        "OriginStation": {
+          "Id": 16626,
+          "ParentId": 5227,
+          "Code": "SVO",
+          "Type": "Airport",
+          "Name": "Москва Шереметьево"
+        },
+        "DestinationStation": {
+          "Id": 12130,
+          "ParentId": 1836,
+          "Code": "HER",
+          "Type": "Airport",
+          "Name": "Крит Ираклион"
+        },
+        "Departure": "2016-10-01T04:10:00",
+        "Arrival": "2016-10-01T19:50:00",
+        "Duration": 940,
+        "JourneyMode": "Flight",
+        "Stops": [
+          {
+            "Id": 9817,
+            "ParentId": 879,
+            "Code": "BEG",
+            "Type": "Airport",
+            "Name": "Белград Никола Тесла"
+          },
+          {
+            "Id": 9592,
+            "ParentId": 650,
+            "Code": "ATH",
+            "Type": "Airport",
+            "Name": "Афины Интернешнл"
+          }
+        ],
+        "Carriers": [
+          {
+            "Id": 1285,
+            "Code": "JU",
+            "Name": "Air Serbia",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+            "DisplayCode": "JU"
+          }
+        ],
+        "OperatingCarriers": [
+          {
+            "Id": 1285,
+            "Code": "JU",
+            "Name": "Air Serbia",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+            "DisplayCode": "JU"
+          },
+          {
+            "Id": 819,
+            "Code": "A3",
+            "Name": "Aegean Airlines",
+            "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+            "DisplayCode": "A3"
+          }
+        ],
+        "Directionality": "Outbound",
+        "FlightNumbers": [
+          {
+            "FlightNumber": "657",
+            "CarrierId": 1285,
+            "Carrier": {
+              "Id": 1285,
+              "Code": "JU",
+              "Name": "Air Serbia",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+              "DisplayCode": "JU"
+            }
+          },
+          {
+            "FlightNumber": "512",
+            "CarrierId": 1285,
+            "Carrier": {
+              "Id": 1285,
+              "Code": "JU",
+              "Name": "Air Serbia",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+              "DisplayCode": "JU"
+            }
+          },
+          {
+            "FlightNumber": "8224",
+            "CarrierId": 1285,
+            "Carrier": {
+              "Id": 1285,
+              "Code": "JU",
+              "Name": "Air Serbia",
+              "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+              "DisplayCode": "JU"
+            }
+          }
+        ]
+      }
+    ],
+    "Segments": [
+      {
+        "Id": 1,
+        "OriginStation": 11051,
+        "DestinationStation": 12130,
+        "DepartureDateTime": "2016-10-01T11:40:00",
+        "ArrivalDateTime": "2016-10-01T15:25:00",
+        "Carrier": 819,
+        "OperatingCarrier": 819,
+        "Duration": 225,
+        "FlightNumber": "987",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 2,
+        "OriginStation": 17538,
+        "DestinationStation": 12130,
+        "DepartureDateTime": "2016-10-01T04:25:00",
+        "ArrivalDateTime": "2016-10-01T08:25:00",
+        "Carrier": 1036,
+        "OperatingCarrier": 1036,
+        "Duration": 240,
+        "FlightNumber": "703",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 3,
+        "OriginStation": 11051,
+        "DestinationStation": 12130,
+        "DepartureDateTime": "2016-10-01T11:40:00",
+        "ArrivalDateTime": "2016-10-01T15:35:00",
+        "Carrier": 819,
+        "OperatingCarrier": 819,
+        "Duration": 235,
+        "FlightNumber": "987",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 4,
+        "OriginStation": 16626,
+        "DestinationStation": 9592,
+        "DepartureDateTime": "2016-10-01T18:35:00",
+        "ArrivalDateTime": "2016-10-01T22:35:00",
+        "Carrier": 1717,
+        "OperatingCarrier": 1717,
+        "Duration": 240,
+        "FlightNumber": "2112",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      },
+      {
+        "Id": 5,
+        "OriginStation": 9592,
+        "DestinationStation": 12130,
+        "DepartureDateTime": "2016-10-02T06:50:00",
+        "ArrivalDateTime": "2016-10-02T07:40:00",
+        "Carrier": 1717,
+        "OperatingCarrier": 819,
+        "Duration": 50,
+        "FlightNumber": "300",
+        "JourneyMode": "Flight",
+        "Directionality": "Outbound"
+      }
+    ],
+    "Carriers": [
+      {
+        "Id": 819,
+        "Code": "A3",
+        "Name": "Aegean Airlines",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/A3.png",
+        "DisplayCode": "A3"
+      },
+      {
+        "Id": 1036,
+        "Code": "EL",
+        "Name": "Ellinair",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/EL.png",
+        "DisplayCode": "EL"
+      },
+      {
+        "Id": 1717,
+        "Code": "SU",
+        "Name": "Aeroflot",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/SU.png",
+        "DisplayCode": "SU"
+      },
+      {
+        "Id": 1285,
+        "Code": "JU",
+        "Name": "Air Serbia",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/JU.png",
+        "DisplayCode": "JU"
+      },
+      {
+        "Id": 1663,
+        "Code": "RO",
+        "Name": "TAROM",
+        "ImageUrl": "http://s1.apideeplink.com/images/airlines/RO.png",
+        "DisplayCode": "RO"
+      }
+    ],
+    "Agents": [
+      {
+        "Id": 2167073,
+        "Name": "ClickAvia",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/clka.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": false,
+        "BookingNumber": "+7 (495) 646-22-66",
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 2074840,
+        "Name": "Biletix.ru",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/btix.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "BookingNumber": "0074956268890",
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 2160610,
+        "Name": "City.Travel",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/citr.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": false,
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 4061317,
+        "Name": "Trip.ru",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/trru.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "Type": "TravelAgent"
+      },
+      {
+        "Id": 3957531,
+        "Name": "SuperKassa",
+        "ImageUrl": "http://s1.apideeplink.com/images/websites/supk.png",
+        "Status": "UpdatesComplete",
+        "OptimisedForMobile": true,
+        "Type": "TravelAgent"
+      }
+    ],
+    "Places": [
+      {
+        "Id": 11051,
+        "ParentId": 5227,
+        "Code": "DME",
+        "Type": "Airport",
+        "Name": "Москва Домодедово"
+      },
+      {
+        "Id": 12130,
+        "ParentId": 1836,
+        "Code": "HER",
+        "Type": "Airport",
+        "Name": "Крит Ираклион"
+      },
+      {
+        "Id": 17538,
+        "ParentId": 5227,
+        "Code": "VKO",
+        "Type": "Airport",
+        "Name": "Москва Внуково"
+      },
+      {
+        "Id": 16337,
+        "ParentId": 7661,
+        "Code": "SKG",
+        "Type": "Airport",
+        "Name": "Салоники"
+      },
+      {
+        "Id": 16626,
+        "ParentId": 5227,
+        "Code": "SVO",
+        "Type": "Airport",
+        "Name": "Москва Шереметьево"
+      }
+    ],
+    "Currencies": [
+      {
+        "Code": "RUB",
+        "Symbol": "p.",
+        "ThousandsSeparator": " ",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "EUR",
+        "Symbol": "€",
+        "ThousandsSeparator": ".",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "RSD",
+        "Symbol": "Дин.",
+        "ThousandsSeparator": ".",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "RON",
+        "Symbol": "lei",
+        "ThousandsSeparator": ".",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      },
+      {
+        "Code": "TRY",
+        "Symbol": "TL",
+        "ThousandsSeparator": ".",
+        "DecimalSeparator": ",",
+        "SymbolOnLeft": false,
+        "SpaceBetweenAmountAndSymbol": true,
+        "RoundingCoefficient": 0,
+        "DecimalDigits": 2
+      }
+    ]
+  },
+  "Query": {
+    "Country": "RU",
+    "Currency": "RUB",
+    "Locale": "ru-ru",
+    "Adults": 2,
+    "Children": 1,
+    "Infants": 1,
+    "OriginPlace": "5227",
+    "DestinationPlace": "12130",
+    "OutboundDate": "2016-10-01",
+    "InboundDate": "2016-10-09",
+    "LocationSchema": "Default",
+    "CabinClass": "Economy",
+    "GroupPricing": true
+  }
+}

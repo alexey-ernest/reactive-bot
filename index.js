@@ -3,7 +3,9 @@
  */
 
 var http = require('./lib/http');
+var worker = require('./lib/worker');
 
 module.exports = {
-  http: http
+  http: http,
+  worker: worker
 };
